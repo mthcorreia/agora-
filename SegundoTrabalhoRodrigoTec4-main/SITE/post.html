@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+        <meta charset="UTF-8">
+        <link href="CSS/estilo.css" rel="stylesheet">
+        
+<head>
+
+        <title>Criar Post</title>
+        
+        <a href="./index.html"><img src = "..\IMG\logo asilo.png" width="400" height="150"></a>
+
+        <h1 class="alinharDireita">Escreva sua mensagem</h1>
+    
+    </head>
+	
+	<body>
+
+        <hr class="hr">
+        
+        <a href="./conheca.html" class = "botaoIni"><img src = "..\IMG\o asilo.jpg" width="120" height="50" ></a>
+
+        <a href="./venha.html" class = "botaoIni"><img src = "..\IMG\visiti-nos.jpg" width="120" height="50" ></a>
+    
+        <a href="./doa.html" class = "botaoIni"><img src = "..\IMG\doe.jpg" width="120" height="50" ></a>
+    
+        <a href="./volun.html" class = "botaoIni"><img src = "..\IMG\ser voluntario.jpg" width="120" height="50" ></a>
+      
+        <a href="./post.html" class = "botaoIni"><img src = "..\IMG\fale conosco.jpg" width="120" height="50"></a>
+        
+
+        <h1 style = "margin-bottom: 10px; text-align: center;">Visualize aqui as mensagens deixadas por outras pessoas</h1>
+
+        <a href="./visualPost.html"><img style = "margin-left: 530px;" src = "..\IMG\iconeMensagem.png" width="300" height="250"></a>
+
+        <form action = "https://news-api-node.herokuapp.com/api/v1/news/" method="POST">
+
+                <div class="fields">
+                    <input id="nome", type="text", placeholder="Digite seu nome">
+                </div>
+                
+                <div class="fields">
+                    <input id="mensagem", type="text", placeholder="Digite sua mensagem">
+                </div>
+               
+                <input id = "enviarBtn", type="submit", value="enviar">
+                
+        </form>
+
+        <hr class="hr1">
+
+        <p style = "margin-top:-200px; color: whitesmoke; margin-left: 35px;">Vila São Vicente Paulo 569, Paraisópolis, MG, 37660-000</p>
+
+        <img style = "margin-top: -40px; margin-left: 1060px;" src = "..\IMG\prefeitura.png" width="250" height="250"></a>
+
+        <script src="/SITE/jquery-3.5.1.min.js"></script>
+        <script src="/SITE/index.js"></script>
+
+	</body>
+</html>

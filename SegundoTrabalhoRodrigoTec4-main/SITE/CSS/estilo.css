@@ -1,0 +1,144 @@
+.centralizarImagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.alinharTitulo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alinharCentroIni{
+    text-align: center;
+    margin-top: 110px;
+}
+
+.alinharDireita{
+    text-align: right;
+    margin-right: 300px;
+    margin-top: -80px;
+}
+
+.botaoIni{
+    position: relative;
+    top: -150px;
+    margin: 50px;
+    left: 220px;
+}
+
+.botaoDoe{
+    position: relative;
+    top: 20px;
+    box-shadow: none;
+    margin: 50px;
+    left: 220px;
+}
+
+.botaoCad{
+    border-radius: 25%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hr{
+    margin: 100px 0;
+    border-top: 50px solid #b17b6c;
+}
+
+.hr1{
+    margin-top: 100px;
+    border-top: 200px solid #b17b6c;
+}
+
+body{
+    color: #292221;
+    font: 15px 'PT Sans', sans-serif;
+    line-height: 30px;
+    background-color: #f4efe9;
+}
+
+div.content {
+    width: 500px;
+    border: 2px solid #b17b6c;
+    margin: 35px auto;
+    padding: 10px;
+}
+
+div.fields {
+    margin-bottom: 10px;
+}
+
+form input[type="number"], [type= "text"], [type = submit]{
+    width: 50%;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 350px;
+}
+
+* { margin: 0; padding: 0; }
+
+.slider {
+    display: block;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.slider li {
+     list-style: none;
+     position: absolute;
+ }
+
+.slider img {
+     margin: auto;
+     height: 100%;
+     width: 100%;
+     vertical-align: top;
+ }
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+     background-color: whitesmoke;
+     bottom: 10px;
+     cursor: pointer;
+     display: block;
+     height: 10px;
+     position: absolute;
+     width: 10px;
+     z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+     left: 10px;
+}
+
+.slider li:nth-child(2) label {
+     left: 40px;
+}
+
+.slider li:nth-child(3) label {
+     left: 70px;
+}
+
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+
+.slider img {
+     opacity: 0;
+     visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+     opacity: 3;
+     visibility: visible;
+     z-index: 10;
+} 
